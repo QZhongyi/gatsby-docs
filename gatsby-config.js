@@ -23,23 +23,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        display: `standalone`,
-        icon: `static/favicon.png`,
+        path: `${__dirname}/static/img`,
+        name: 'uploads',
       },
     },
     `gatsby-plugin-sitemap`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `YOUR_ANALYTICS_ID`,
-    //   },
-    // },
     `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
