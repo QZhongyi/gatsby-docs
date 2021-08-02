@@ -7,7 +7,7 @@ description: A Brief Introduction To JAMStack
 ## JAMstack - JavaScript, API, Markup
 是一种使用静态网站生成器，不依赖 web server 的前端架构
 
-![image](./jamstack.png)
+![image](/images/jamstack.png)
 
 ### JAMstack 的特点
 - SSG 网站生成器预渲染整个网站
