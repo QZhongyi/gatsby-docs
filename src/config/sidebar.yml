@@ -1,0 +1,16 @@
+# Sidebar navigation
+
+- label: JAMStack
+  items:
+    - label: 'Brief Introduction'
+      link: '/JAMStack/brief'
+    - label: 'SSG - Gatsby'
+      link: 'JAMStack/Gatsby'
+    - label: 'Headless CMS'
+      link: 'JAMStack/HeadlessCMS'
+    - label: 'CDN'
+      link: 'JAMStack/CDN'
+- label: More
+  items:
+    - label: 'Github'
+      link: https://github.com/rocketseat/gatsby-themes
