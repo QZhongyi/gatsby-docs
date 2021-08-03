@@ -17,11 +17,11 @@ description: How To Build A Gatsby Site
 2. 选择一个合适的 starter 并通过 `gatsby new`命令构建工程目录、安装依赖
 3. 运行`gatsby develop`
 
-如果没有合适的 starter，也可以搭建基本的 gatsby 工程后，自己选择合适的插件组合使用。大部分插件都仅需要几行简单的配置就可以上手。
+如果没有合适的 starter，也可以搭建基本的 gatsby 工程后，自己选择合适的插件组合使用。大部分插件都仅需要几行简单的配置就可以上手使用。
 
 <br />
 
-## 推荐的 starter 和 plugin
+## 推荐的 plugin 和 starter
 本地文件读取插件：[gatsby-source-filesystem | GatsbyJS 中文网](https://www.gatsbyjs.cn/packages/gatsby-source-filesystem/?=)  
 基于 Sharp 的图片处理：[gatsby-plugin-sharp | GatsbyJS 中文网](https://www.gatsbyjs.cn/packages/gatsby-plugin-sharp/?=)  
 自动创建站点地图：[gatsby-plugin-sitemap | GatsbyJS 中文网](https://www.gatsbyjs.cn/packages/gatsby-plugin-sitemap/?=)  
