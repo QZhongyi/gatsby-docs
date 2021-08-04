@@ -1,4 +1,5 @@
 ---
+status: public
 title: JAMstack
 date: 2021-07-29T15:04:10.000Z
 description: A Brief Introduction To JAMStack
