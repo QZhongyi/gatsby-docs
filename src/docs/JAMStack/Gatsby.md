@@ -1,4 +1,5 @@
 ---
+status: public
 title: SSG - Gatsby
 date: 2021-07-30T11:34:57.697Z
 description: How To Build A Gatsby Site
