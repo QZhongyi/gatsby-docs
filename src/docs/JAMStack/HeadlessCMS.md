@@ -7,10 +7,14 @@ description: Intro to HCMS and how to use Netlify-CMS in your static site
 ## Headless CMS
 传统 CMS（wordpress、Sitecore）会将文本内容、图片、HTML、CSS 等资源混杂在一起管理，这样生成的掺杂着代码的内容很难去复用在不同平台上。为了迎合越来越多的跨平台、高度个性化的建站需求，Headless CMS 诞生了  
 无头 CMS 相对于传统 CMS 的不同在于 HCMS 更纯粹地专注于内容管理，把内容（body）和展示层（head）解耦了，并通过 API 来提供内容给各个端
+
 <br />
+
 ## Netlify CMS
 基于 React 的开源的内容管理系统，跟很多静态网站生成器都能适配。使用 Git 仓库管理资源，保存文件后自动提交到 Git 仓库（GitHub、Gitlab、Bitbucket）
+
 <br />
+
 ### Netlify CMS 搭配 Gatsby
 为 Gatsby 站点增加 Netlify CMS 的操作分为三个步骤：
 1. 安装插件 netlify-cms-app 和 gatsby-plugin-netlify-cms
@@ -39,6 +43,8 @@ collections: # content structure
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
 ```
+
+<br />
 
 #### 相关连接
 [Headless CMS explained in 1 minute | Contentful](https://www.contentful.com/r/knowledgebase/what-is-headless-cms/)  
