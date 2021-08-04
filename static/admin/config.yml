@@ -1,18 +1,22 @@
 backend:
-  name: git-gateway
-  branch: develop
+  name: git-gateway # backend protocol
+  branch: develop # publication git branch
 
-media_folder: static/image
-public_folder: /image
+media_folder: static/image # upload images folder path (relative to the project root)
+public_folder: /image # upload images public path
 
-collections:
-  - name: "jamstack"
-    label: "JAMStack"
-    folder: "src/docs/JAMStack"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
+collections: # content structure
+  - name: "jamstack" # used in routes
+    label: "JAMStack" # used in the UI
+    folder: "src/docs/JAMStack" # content folder
+    create: true # allow user to create new documents
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # file name template
+    filter:
+      field: status
+      value: public
+    fields: # fields in the content editor
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Status", name: "status", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
