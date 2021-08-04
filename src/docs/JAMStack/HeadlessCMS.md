@@ -15,7 +15,7 @@ description: Intro to HCMS and how to use Netlify-CMS in your static site
 为 Gatsby 站点增加 Netlify CMS 的操作分为三个步骤：
 1. 安装插件 netlify-cms-app 和 gatsby-plugin-netlify-cms
 2. 在 Gatsby 配置文件 gatsby-config.js 的 plugins 中增加‘gatsby-plugin-netlify-cms’
-3. 在 Gatsby 工程目录的 static/admin 下增加 Netlify CMS 配置文件 config.yml
+3. 在 Gatsby 工程目录的 static/admin 下增加 Netlify CMS 配置文件 config.yml  
 ```
 # config.yml
 backend:
