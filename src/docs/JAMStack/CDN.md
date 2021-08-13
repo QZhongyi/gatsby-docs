@@ -5,7 +5,7 @@ date: 2021-08-04T07:08:13.190Z
 description: Intro to Netlify
 ---
 ## Netlify
-Netlify 是一个提供**静态资源托管**的综合平台
+Netlify 是一个提供**静态资源托管**的综合平台123
 
 - 托管静态资源，并自动启用 CDN 加速
 - 支持 CI
